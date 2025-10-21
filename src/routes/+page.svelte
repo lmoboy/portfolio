@@ -18,7 +18,7 @@
 			title: 'Skill exchange platform',
 			description: 'Full-stack skill exchange platform with Svelte, Golang and PostgreSQL.',
 			technologies: ['Svelte', 'Golang', 'PostgreSQL'],
-			image: '/src/lib/assets/images/skillswap.png',
+			image: 'https://raw.githubusercontent.com/lmoboy/portfolio/refs/heads/master/src/lib/assets/images/skillswap.png',
 			liveUrl: 'http://5o8e.l.time4vps.cloud/',
 			githubUrl: 'https://github.com/lmoboy/SkillSwap'
 		},
@@ -26,7 +26,7 @@
 			title: 'Github profanity checker',
 			description: 'Github profanity checker written in Python and the power of git api.',
 			technologies: ['Python'],
-			image: '/src/lib/assets/images/profanity.png',
+			image: 'https://raw.githubusercontent.com/lmoboy/portfolio/refs/heads/master/src/lib/assets/images/profanity.png',
 			liveUrl: 'disabled',
 			githubUrl: 'https://github.com/lmoboy/profanity_checker'
 		},
@@ -34,7 +34,7 @@
 			title: 'Wonky UI design',
 			description: 'Quite unconventional UI design with the power of svelte Svelte.',
 			technologies: ['Svelte'],
-			image: '/src/lib/assets/images/wonkyui.png',
+			image: 'https://raw.githubusercontent.com/lmoboy/portfolio/refs/heads/master/src/lib/assets/images/wonkyui.png',
 			liveUrl: 'https://wonky-ui-design.vercel.app/',
 			githubUrl: 'https://github.com/lmoboy/wonky_ui_design'
 		}
