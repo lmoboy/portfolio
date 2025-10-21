@@ -20,7 +20,7 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<title>Daniils - Portfolio</title>
+	<title>Daniel - Portfolio</title>
 	<meta name="description" content="Full-stack developer specializing in modern web technologies" />
 </svelte:head>
 

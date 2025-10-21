@@ -149,7 +149,7 @@
 						</p>
 						<p class="text-gray-300 mb-6 text-sm sm:text-base">
 							When I'm not coding, you can find me playing video games, watching movies, or spending time with my friends.
-                     Really depends i sometimes also play bass guitar or try to create complex C++ projects.
+                     On special occasions you can find me playing my bass guitar or trying to create complex C++ projects.
 						</p>
                   <span class="text-gray-400 text-sm p-2">
                      *: Only my vocational school experience from the very first year.
