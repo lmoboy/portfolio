@@ -31,7 +31,6 @@
    function randomChar() {
       return chars[Math.floor(Math.random() * chars.length)]
    }
-
    // Update animation frame
    function update() {
       // Check if we're in browser environment
