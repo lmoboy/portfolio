@@ -13,10 +13,10 @@
       {
          title: 'Skill exchange platform',
          description:
-            'Full-stack skill exchange platform with Svelte, Golang and PostgreSQL.',
+            'Full-stack skill exchange platform with Svelte, Golang and MySql.',
          technologies: ['Svelte', 'Golang', 'PostgreSQL'],
          image: 'https://raw.githubusercontent.com/lmoboy/portfolio/refs/heads/master/src/lib/assets/images/skillswap.png',
-         liveUrl: 'http://5o8e.l.time4vps.cloud/',
+         liveUrl: 'https://skillswap.online',
          githubUrl: 'https://github.com/lmoboy/SkillSwap',
       },
       {
@@ -40,14 +40,13 @@
    ]
 
    const skills = [
-      { name: 'JavaScript', level: 80 },
-      { name: 'TypeScript', level: 60 },
-      { name: 'React', level: 70 },
-      { name: 'Vue.js', level: 50 },
-      { name: 'Svelte', level: 90 },
-      { name: 'SQL', level: 70 },
-      { name: 'PHP', level: 80 },
-      { name: 'Communication', level: 99 },
+      { name: 'JavaScript', level: 70 },
+      { name: 'TypeScript', level: 50 },
+      { name: 'React', level: 60 },
+      { name: 'Vue.js', level: 40 },
+      { name: 'Svelte', level: 80 },
+      { name: 'SQL', level: 60 },
+      { name: 'PHP', level: 75 },
       { name: 'Git', level: 80 },
       { name: 'Docker', level: 40 },
       { name: 'Networking', level: 70 },
