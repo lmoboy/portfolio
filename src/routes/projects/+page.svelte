@@ -103,7 +103,7 @@
 	}
 </script>
 
-<div class="py-12 text-white">
+<div class="container mx-auto px-6 py-12 text-white">
 	<div class="mb-12">
 		<h1 class="mb-4 border-b-4 border-white pb-4 text-5xl font-bold tracking-tight">Projects</h1>
 		<p class="text-lg text-white">
@@ -136,10 +136,10 @@
 			</p>
 		</div>
 	{:else}
-		<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 min-w-0">
 			{#each repos as repo (repo.id)}
 				<article
-					class="group flex flex-col border-2 border-white transition-all hover:-translate-y-1 hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]"
+					class="group flex flex-col border-2 border-white transition-all hover:-translate-y-1 hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] min-w-0"
 				>
 					<div class="border-b-2 border-white bg-white p-4">
 						<h2 class="text-xl font-bold text-black group-hover:underline">

@@ -8,6 +8,7 @@
    import Card from '$lib/components/UI/Card.svelte'
    import { onMount } from 'svelte'
 
+   const year = new Date().getFullYear().toString()
    // Sample data
    const projects = [
       {
@@ -314,12 +315,12 @@
             </p>
          </div>
 
-         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 min-w-0">
             {#each projects as project, index}
-               <div data-aos="fade-up" data-aos-delay={index * 100}>
-                  <Card
-                     className="p-0 overflow-hidden hover:scale-105 transition-transform duration-300"
-                  >
+                <div data-aos="fade-up" data-aos-delay={index * 100} class="min-w-0">
+                   <Card
+                      className="p-0 overflow-hidden hover:scale-105 transition-transform duration-300 w-full"
+                   >
                      <div class="relative">
                         <Image
                            src={project.image}
@@ -549,7 +550,7 @@
          </div>
          <div class="border-t-2 border-white pt-8">
             <p class="text-gray-400">
-               &copy; 2025 Daniel Developer. All rights reserved.
+               &copy; {year} Daniel Developer. All rights reserved.
             </p>
          </div>
       </div>
