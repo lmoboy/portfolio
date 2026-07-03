@@ -166,7 +166,7 @@
                      Hello, I'm Daniel
                   </h3>
                   <p class="text-gray-300 mb-4 text-sm sm:text-base">
-                     I'm a passionate full-stack developer with 4* years of
+                     I'm a passionate full-stack developer with 2* years of
                      experience creating digital pages for the tasks the
                      teachers gave us. I specialize in modern web technologies
                      and love turning complex ideas into simple, beautiful, and
@@ -176,10 +176,10 @@
                      When I'm not coding, you can find me playing video games,
                      watching movies, or spending time with my friends. On
                      special occasions you can find me playing my bass guitar or
-                     trying to create complex C++ projects.
+                     reading on advanced programming principles.
                   </p>
                   <span class="text-gray-400 text-sm p-2">
-                     *: Only my vocational school experience from the very first
+                     * Only my vocational school experience from the very first
                      year.
                   </span>
                   <div class="flex flex-col sm:flex-row gap-4">
