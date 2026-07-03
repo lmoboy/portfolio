@@ -213,7 +213,8 @@
                </client:only>
             </h2>
             <p class="text-xl text-gray-300 max-w-2xl mx-auto">
-               Technologies and tools I work with to bring ideas to life
+               Technologies and tools I work with to bring ideas to life<br/> 
+               <span class="text-sm text-[#3f3f3f]">The percentages shown are how confident i am using/working with the tech.</span>
             </p>
          </div>
 
